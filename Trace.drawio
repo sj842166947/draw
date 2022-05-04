@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T10:51:52.693Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="cZhU7ywbMiw_o1-ieaXQ" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-04T10:52:10.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="v2Kc0v48T7tcP_tTjATf" version="17.5.0" type="github">
   <diagram id="hKtjUMWqYmaZytrloHC0" name="Page-1">
     <mxGraphModel dx="2097" dy="1859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -192,7 +192,7 @@
             <mxPoint x="772" y="-22" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lfIt66fBGC96BSfinq6W-65" value="TraceId 贯穿整个链路" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#1A1A1A;" parent="lfIt66fBGC96BSfinq6W-64" vertex="1" connectable="0">
+        <mxCell id="lfIt66fBGC96BSfinq6W-65" value="&lt;b&gt;TraceId 贯穿整个链路&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#1A1A1A;" parent="lfIt66fBGC96BSfinq6W-64" vertex="1" connectable="0">
           <mxGeometry x="-0.2774" y="-1" relative="1" as="geometry">
             <mxPoint x="104" as="offset" />
           </mxGeometry>
