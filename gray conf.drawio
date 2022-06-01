@@ -1,1 +1,276 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T06:29:03.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="18.2.0" etag="bJb_ZMgFk35A64ZpjO7z" type="github"><diagram id="YbOj2m_h4Rlv5uN7Jlbm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-01T07:19:35.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="b2VnBHNTCDz88J_4gNDp" version="18.2.0" type="github">
+  <diagram id="YbOj2m_h4Rlv5uN7Jlbm" name="Page-1">
+    <mxGraphModel dx="2048" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-1" target="xVNtesGDLxIq_oZXXqDL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-1" value="创建灰度规则(版本级)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-2" target="xVNtesGDLxIq_oZXXqDL-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-2" value="获取分组Ip列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-3" target="xVNtesGDLxIq_oZXXqDL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-5" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xVNtesGDLxIq_oZXXqDL-4">
+          <mxGeometry x="0.21" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-3" target="xVNtesGDLxIq_oZXXqDL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-11" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xVNtesGDLxIq_oZXXqDL-10">
+          <mxGeometry x="-0.49" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-3" value="是否公共配置" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-7" target="xVNtesGDLxIq_oZXXqDL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-7" value="获取App列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-8" target="xVNtesGDLxIq_oZXXqDL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-8" value="选择灰度appId" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-13" target="xVNtesGDLxIq_oZXXqDL-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-13" value="选择需要灰度IP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-16" target="xVNtesGDLxIq_oZXXqDL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-16" value="创建灰度配置(配置级)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-17" target="xVNtesGDLxIq_oZXXqDL-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-17" value="从实时配置copy数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-20" target="xVNtesGDLxIq_oZXXqDL-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-20" value="修改灰度配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-22" value="全量发布/取消灰度配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-24" target="xVNtesGDLxIq_oZXXqDL-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-24" value="下载配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-25" target="xVNtesGDLxIq_oZXXqDL-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-25" value="获取来源IP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="130" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.423;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-27" target="xVNtesGDLxIq_oZXXqDL-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-33" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xVNtesGDLxIq_oZXXqDL-32">
+          <mxGeometry x="-0.5559" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-27" target="xVNtesGDLxIq_oZXXqDL-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-35" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xVNtesGDLxIq_oZXXqDL-34">
+          <mxGeometry x="-0.2578" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-27" value="是否灰度IP" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="210" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-29" target="xVNtesGDLxIq_oZXXqDL-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-29" value="返回实时配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-30" target="xVNtesGDLxIq_oZXXqDL-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-30" value="返回灰度配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-31" target="xVNtesGDLxIq_oZXXqDL-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-31" value="获取配置名" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="350" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-36" target="xVNtesGDLxIq_oZXXqDL-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-41" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xVNtesGDLxIq_oZXXqDL-38">
+          <mxGeometry x="0.723" relative="1" as="geometry">
+            <mxPoint y="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.422;entryY=0.065;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-36" target="xVNtesGDLxIq_oZXXqDL-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-40" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xVNtesGDLxIq_oZXXqDL-39">
+          <mxGeometry x="-0.6017" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-36" value="是否存在灰度配置" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="430" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-42" target="xVNtesGDLxIq_oZXXqDL-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-42" value="生成快照" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-43" target="xVNtesGDLxIq_oZXXqDL-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-43" value="逐个文件创建实时配置快照" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-46" value="记录下载配置信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="710" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-50" target="xVNtesGDLxIq_oZXXqDL-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-64" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xVNtesGDLxIq_oZXXqDL-59">
+          <mxGeometry x="-0.8024" relative="1" as="geometry">
+            <mxPoint y="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-50" target="xVNtesGDLxIq_oZXXqDL-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="275" />
+              <mxPoint x="1400" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-63" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xVNtesGDLxIq_oZXXqDL-62">
+          <mxGeometry x="0.1393" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-50" value="是否存在灰度配置" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="235" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-51" target="xVNtesGDLxIq_oZXXqDL-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-51" value="创建灰度配置快照(快照版本+gray后缀)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-53" value="保存灰度规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-55" target="xVNtesGDLxIq_oZXXqDL-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-55" value="存储灰度配置快照+灰度规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-56" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-66" target="xVNtesGDLxIq_oZXXqDL-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-66" value="下载快照配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-68" target="xVNtesGDLxIq_oZXXqDL-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-68" value="获取来源IP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="130" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.423;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-73" target="xVNtesGDLxIq_oZXXqDL-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-70" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xVNtesGDLxIq_oZXXqDL-69">
+          <mxGeometry x="-0.5559" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-73" target="xVNtesGDLxIq_oZXXqDL-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-72" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xVNtesGDLxIq_oZXXqDL-71">
+          <mxGeometry x="-0.2578" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-73" value="是否灰度IP&lt;br&gt;(快照灰度规则)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="210" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-75" target="xVNtesGDLxIq_oZXXqDL-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-75" value="返回快照配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-77" target="xVNtesGDLxIq_oZXXqDL-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-77" value="返回gray快照配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-79" target="xVNtesGDLxIq_oZXXqDL-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-79" value="获取配置名和快照名" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="350" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-84" target="xVNtesGDLxIq_oZXXqDL-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-81" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xVNtesGDLxIq_oZXXqDL-80">
+          <mxGeometry x="0.723" relative="1" as="geometry">
+            <mxPoint y="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.422;entryY=0.065;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xVNtesGDLxIq_oZXXqDL-84" target="xVNtesGDLxIq_oZXXqDL-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-83" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xVNtesGDLxIq_oZXXqDL-82">
+          <mxGeometry x="-0.6017" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-84" value="是否存在灰度配置快照" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="430" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xVNtesGDLxIq_oZXXqDL-85" value="记录下载配置信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="710" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
