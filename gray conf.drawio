@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T07:13:04.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="OYfcb8J6-xFhf58GBuq6" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T07:13:31.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="9WDlgn6NRjOuTQtDgXRS" version="19.0.0" type="github">
   <diagram id="YbOj2m_h4Rlv5uN7Jlbm" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -793,7 +793,7 @@
         <mxCell id="3qJPJ0p830aMWVGbC03R-185" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3qJPJ0p830aMWVGbC03R-186" target="3qJPJ0p830aMWVGbC03R-163">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3qJPJ0p830aMWVGbC03R-186" value="获取配置快照版本" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="3qJPJ0p830aMWVGbC03R-186" value="&lt;font color=&quot;#ff0000&quot;&gt;获取对应配置快照版本&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1345" y="1660" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3qJPJ0p830aMWVGbC03R-187" value="step2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
